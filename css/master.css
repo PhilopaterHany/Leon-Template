@@ -113,6 +113,14 @@ html {
   font-size: 20px;
   text-align: center;
 }
+@media (max-width: 480px) {
+  .section-heading {
+    font-size: 80px;
+  }
+  .section-heading + p {
+    font-size: 18px;
+  }
+}
 /*! End Global Rules */
 /** Start Header */
 .header {
@@ -467,6 +475,11 @@ html {
 }
 .contact .container .social .fa-instagram {
   color: var(--insta);
+}
+@media (max-width: 480px) {
+  .contact .container .mail p a {
+    font-size: 28px;
+  }
 }
 /*! End Contact */
 /*^ Start Footer */
