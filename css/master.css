@@ -94,7 +94,7 @@ html {
     width: 962px;
   }
 }
-/* Large Screens*/
+/* Large Screens */
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
@@ -136,7 +136,7 @@ html {
   width: 30px;
 }
 .header .container .links .burger-menu span {
-  height: 2px;
+  height: 5px;
   margin-bottom: 5px;
   background-color: #333;
 }
@@ -251,7 +251,8 @@ html {
   padding: 20px;
   text-align: center;
 }
-.features .container div .fas {
+.features .container div .fas,
+.features .container div .far {
   font-size: 3em;
   color: var(--primColor);
 }
