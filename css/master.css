@@ -77,10 +77,8 @@ html {
   -o-transform: translateY(-4px);
 }
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-inline: auto;
+  padding-inline: 15px;
 }
 /* Small Screens */
 @media (max-width: 480px) {
