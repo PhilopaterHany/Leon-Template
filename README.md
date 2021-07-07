@@ -6,7 +6,7 @@
 <li>Works well on all devices. <br /></li>
 <li>Took around 9 hours. <br /></li>
 <li>I considered it as a practice material to apply what I have learned till now. <br /></li>
-<li>You can view it live through this <a href="https://rafay-leon-template.netlify.app/" target="_blank">link</a></li>
+<li>You can view it live through this <a href="https://rafay-leon-template.netlify.app/" target="_blank">link</a>.</li>
 <li>I hope you like it. <br /></li>
 <li>Have a great day :)</li>
 </ul>
