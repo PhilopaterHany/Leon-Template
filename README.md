@@ -11,6 +11,3 @@
   <li>I hope you like it. <i class="fas fa-heart"></i></li>
   <li>Special Thanks to <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF" target="_blank">Osama Elzero</a></li>
 </ul>
-<svg style="fill: green;">
-<img src="Icons For README/clock-solid.svg" width="100" height="100">
-</svg
