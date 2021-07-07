@@ -1,6 +1,7 @@
 # Leon-Template-One
 <!-- Font Awesome Library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
 <ul>
   <li>My First Responsive HTML &amp; CSS Webpage !</li>
   <li>You can view the template's PSD file through this <a href="https://www.graphberry.com/item/leon-psd-agency-template" target="_blank">link</a>. It is <b>free</b> !</li>
