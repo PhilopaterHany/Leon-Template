@@ -9,5 +9,5 @@
   <li>I considered it as a practice material to apply what I have learned in HTML5 and CSS3.</li>
   <li>You can view it live through this <a href="https://rafay-leon-template.netlify.app/" target="_blank">link</a>.</li>
   <li>I hope you like it. <i class="fas fa-heart"></i></li>
-  <li>Special Thanks to <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF" target="_blank">Osama Elzero</a></li>
+  <li>Special Thanks to <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF" target="_blank">Osama Elzero</a><img src="README/heart-solid.png" alt="Heart" width="50" height="50" /></li>
 </ul>
