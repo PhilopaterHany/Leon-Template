@@ -1,4 +1,4 @@
-# Leon-Template-One
+# Leon-Template
 <ul>
   <li>My First Responsive HTML &amp; CSS Webpage !</li>
   <li>You can view the template's PSD file through this <a href="https://www.graphberry.com/item/leon-psd-agency-template" target="_blank">link</a>. It is <b>free</b> !</li>
