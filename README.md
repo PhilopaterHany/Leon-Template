@@ -8,5 +8,5 @@
   <li>Took around 9 hours.</li>
   <li>I considered it as a practice material to apply what I have learned in HTML5 and CSS3.</li>
   <li>You can view it live through this <a href="https://philopaterhany.github.io/Leon-Template" target="_blank">link</a>.</li>
-  <li>Special Thanks to <a href="https://www.youtube.com/c/ElzeroInfo" target="_blank">Osama Elzero</a>.</li>
+  <li>Special Thanks to <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF" target="_blank">Osama Elzero</a>.</li>
 </ul>
