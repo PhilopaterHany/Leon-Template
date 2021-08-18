@@ -225,6 +225,9 @@ html {
 /*^ Start Landing Section */
 .landing {
   background-image: url(../images/landing.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom;
   background-size: cover;
   height: calc(100vh - 64px);
   position: relative;
