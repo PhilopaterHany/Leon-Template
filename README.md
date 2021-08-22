@@ -1,12 +1,12 @@
 # Leon-Template
-<ul>
-  <li>My First Responsive HTML &amp; CSS Webpage !</li>
-  <li>You can view the template's PSD file through this <a href="https://www.graphberry.com/item/leon-psd-agency-template" target="_blank">link</a>. It is <b>free</b> !</li>
-  <li>Maybe I'll add some JavaScript later.</li>
-  <li>Simple Website for a web developing agency.</li>
-  <li>Works well on all devices &amp; browser friendly.</li>
-  <li>Took around 9 hours.</li>
-  <li>I considered it as a practice material to apply what I have learned in HTML5 and CSS3.</li>
-  <li>You can view it live through this <a href="https://philopaterhany.github.io/Leon-Template" target="_blank">link</a>.</li>
-  <li>Special Thanks to <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF" target="_blank">Osama Elzero</a>.</li>
-</ul>
+- My First Responsive HTML &amp; CSS Webpage !
+- You can view the template's PSD file through this [link](https://www.graphberry.com/item/leon-psd-agency-template). It is free !
+- Maybe I'll add some JavaScript later.
+- Simple Website for a web developing agency.
+- Works well on all devices &amp; browser friendly.
+- Took around 9 hours.
+- I considered it as a practice material to apply what I have learned in HTML5 and CSS3.
+- You can view it live through this [link](https://philopaterhany.github.io/Leon-Template).
+- Special Thanks to [Osama Elzero](https://www.youtube.com/playlist?list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF) :love:
+### Template Image
+- ![Template Image](https://graphberry-imgs.imgix.net/leon-psd-agency-template-312.png?auto=compress,format&q=80&w=800)
