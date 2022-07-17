@@ -23,11 +23,15 @@
     background-color: var(--primColor);
 }
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: "Work Sans", sans-serif;
 }
 html {
     scroll-behavior: smooth;
+}
+body {
+    font-family: "Work Sans", sans-serif;
 }
 #to-top {
     /*^ Scroll To Top Button */
@@ -39,41 +43,41 @@ html {
     outline: none;
     cursor: pointer;
     z-index: 99;
-    border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
     bottom: 15px;
     right: -1000px;
-    transition: var(--mainDuration);
     -webkit-transition: var(--mainDuration);
     -moz-transition: var(--mainDuration);
     -ms-transition: var(--mainDuration);
     -o-transition: var(--mainDuration);
+    transition: var(--mainDuration);
 }
 #to-top .fas {
     font-size: 22px;
-    transition: var(--mainDuration);
     -webkit-transition: var(--mainDuration);
     -moz-transition: var(--mainDuration);
     -ms-transition: var(--mainDuration);
     -o-transition: var(--mainDuration);
+    transition: var(--mainDuration);
 }
 #to-top:hover {
-    filter: brightness(90%);
     -webkit-filter: brightness(90%);
+    filter: brightness(90%);
 }
 #to-top:hover .fas {
-    transform: translateY(-4px);
     -webkit-transform: translateY(-4px);
     -moz-transform: translateY(-4px);
     -ms-transform: translateY(-4px);
     -o-transform: translateY(-4px);
+    transform: translateY(-4px);
 }
 .container {
     margin-inline: auto;
@@ -125,50 +129,50 @@ html {
 }
 /*! End Global Rules */
 /** Start Header */
-.header {
+header {
     padding: 20px;
 }
-.header .container {
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header .container img {
+header .container img {
     width: 60px;
 }
-.header .container .links {
+header .container .links {
     position: relative;
 }
-.header .container .links .burger-menu {
+header .container .links .burger-menu {
     width: 30px;
     display: flex;
     align-items: flex-end;
     flex-flow: column wrap;
     cursor: pointer;
 }
-.header .container .links .burger-menu span {
+header .container .links .burger-menu span {
     height: 4px;
     margin-bottom: 5px;
     background-color: #333;
 }
-.header .container .links .burger-menu span:not(:nth-child(2)) {
+header .container .links .burger-menu span:not(:nth-child(2)) {
     width: 100%;
 }
-.header .container .links .burger-menu span:nth-child(2) {
+header .container .links .burger-menu span:nth-child(2) {
     width: 60%;
-    transition: width var(--mainDuration);
     -webkit-transition: width var(--mainDuration);
     -moz-transition: width var(--mainDuration);
     -ms-transition: width var(--mainDuration);
     -o-transition: width var(--mainDuration);
+    transition: width var(--mainDuration);
 }
-.header .container .links:hover .burger-menu span {
+header .container .links:hover .burger-menu span {
     background-color: var(--primColor);
 }
-.header .container .links:hover .burger-menu span:nth-child(2) {
+header .container .links:hover .burger-menu span:nth-child(2) {
     width: 100%;
 }
-.header .container .links ul {
+header .container .links ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -184,7 +188,7 @@ html {
 .show {
     display: block !important;
 }
-.header .container .links ul::before {
+header .container .links ul::before {
     content: "";
     position: absolute;
     right: 5px;
@@ -192,34 +196,34 @@ html {
     border: 10px solid;
     border-color: transparent transparent var(--sectionBG) transparent;
 }
-.header .container .links ul li a {
+header .container .links ul li a {
     display: block;
     padding: 15px;
     text-decoration: none;
     color: #333;
-    transition: var(--mainDuration);
     -webkit-transition: var(--mainDuration);
     -moz-transition: var(--mainDuration);
     -ms-transition: var(--mainDuration);
     -o-transition: var(--mainDuration);
+    transition: var(--mainDuration);
 }
-.header .container .links ul li a {
+header .container .links ul li a {
     border-bottom: 1px solid #ccc;
 }
-.header .container .links ul li a .fas {
+header .container .links ul li a .fas {
     float: left;
-    transform: translate(-5px, 1px);
     -webkit-transform: translate(-5px, 1px);
     -moz-transform: translate(-5px, 1px);
     -ms-transform: translate(-5px, 1px);
     -o-transform: translate(-5px, 1px);
+    transform: translate(-5px, 1px);
 }
-.header .container .links ul li a:hover {
+header .container .links ul li a:hover {
     padding-left: 25px;
     border-bottom-color: var(--primColor);
     background-color: #e0dede;
 }
-.header .container .links ul li a:hover .fas {
+header .container .links ul li a:hover .fas {
     color: var(--primColor);
 }
 /** End Header */
@@ -277,26 +281,26 @@ html {
     justify-content: center;
     align-items: center;
     border: 2px solid var(--primColor);
-    border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    transition: var(--mainDuration);
+    border-radius: 50%;
     -webkit-transition: var(--mainDuration);
     -moz-transition: var(--mainDuration);
     -ms-transition: var(--mainDuration);
     -o-transition: var(--mainDuration);
+    transition: var(--mainDuration);
 }
 .features .container div .icon-cont .fas,
 .features .container div .icon-cont .far {
     font-size: 3em;
     color: var(--primColor);
-    transition: var(--mainDuration);
     -webkit-transition: var(--mainDuration);
     -moz-transition: var(--mainDuration);
     -ms-transition: var(--mainDuration);
     -o-transition: var(--mainDuration);
+    transition: var(--mainDuration);
 }
 .features .container div .icon-cont:hover {
     background-color: var(--primColor);
@@ -304,11 +308,11 @@ html {
 .features .container div .icon-cont:hover .far,
 .features .container div .icon-cont:hover .fas {
     color: #fff;
-    transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .features .container div h3 {
     margin: 30px 0;
@@ -521,7 +525,7 @@ html {
 }
 /*! End Contact */
 /*^ Start Footer */
-.footer {
+footer {
     padding: 30px;
     font-size: 18px;
     text-align: center;
@@ -529,12 +533,12 @@ html {
     color: #fff;
     background-color: var(--secColor);
 }
-.footer a {
+footer a {
     color: var(--primColor);
     font-weight: bold;
     text-decoration: none;
 }
-.footer .fa-heart {
+footer .fa-heart {
     color: #dc143c;
 }
 /*^ End Footer */
